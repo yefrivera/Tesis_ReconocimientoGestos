@@ -1,0 +1,13 @@
+# Entorno virtual
+.venv/
+
+# Datos y modelos
+data/
+trained_models/
+
+# Archivos de Python
+__pycache__/
+*.pyc
+
+# Archivos de configuración local (si los tienes)
+.env

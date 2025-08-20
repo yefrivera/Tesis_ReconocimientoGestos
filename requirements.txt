@@ -1,0 +1,10 @@
+opencv-python
+mediapipe
+numpy
+#tensorflow
+torch
+# O pytorch, según tu elección
+# Librerías para el servidor, ej:
+websockets
+# Librería para el LLM, ej:
+google-generativeai
