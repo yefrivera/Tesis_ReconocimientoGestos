@@ -1,5 +1,13 @@
 # src/models/baseline/train.py
 
+import sys
+import os
+
+# Asegurarse de que el directorio raíz del proyecto esté en PYTHONPATH
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../.."))
+if ROOT_DIR not in sys.path:
+    sys.path.append(ROOT_DIR)
+
 from src.utils.data_loader import load_gesture_data, GESTURE_MAP
 from src.models.baseline.model import build_lstm_model
 
