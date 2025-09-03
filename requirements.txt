@@ -1,8 +1,10 @@
 opencv-python
 mediapipe
 numpy
-#tensorflow
-torch
+tensorflow
+seaborn
+glob
+sklearn.metrics
 # O pytorch, según tu elección
 # Librerías para el servidor, ej:
 websockets
