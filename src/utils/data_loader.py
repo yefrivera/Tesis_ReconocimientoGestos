@@ -1,4 +1,3 @@
-# src/utils/data_loader.py
 
 import os
 import json
@@ -6,12 +5,10 @@ import numpy as np
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from sklearn.model_selection import train_test_split
 
-# Mapeo de gestos a números. ¡Debes actualizar esto con tus gestos!
 GESTURE_MAP = {
     "mano_abierta": 0,
     "pulgar": 1,
     "v": 2
-    # ... añade todos tus gestos aquí
 }
 
 def load_gesture_data(data_path, max_len=30):

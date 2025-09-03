@@ -1,9 +1,7 @@
-# src/models/baseline/train.py
 
 import sys
 import os
 
-# Asegurarse de que el directorio raíz del proyecto esté en PYTHONPATH
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../.."))
 if ROOT_DIR not in sys.path:
     sys.path.append(ROOT_DIR)
@@ -14,7 +12,7 @@ from src.models.baseline.model import build_lstm_model
 # --- HIPERPARÁMETROS Y CONFIGURACIÓN ---
 DATA_PATH = "../../../data/processed"
 MODEL_SAVE_PATH = "../../../trained_models/baseline_model_v1.h5"
-SEQUENCE_LENGTH = 30  # Debe coincidir con max_len en data_loader
+SEQUENCE_LENGTH = 30 # Número de frames por secuencia
 NUM_CLASSES = len(GESTURE_MAP)
 EPOCHS = 50
 BATCH_SIZE = 32
