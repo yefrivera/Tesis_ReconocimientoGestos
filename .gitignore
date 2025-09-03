@@ -1,9 +1,7 @@
 # Entorno virtual
 .venv/
 
-# Datos y modelos
-data/
-trained_models/
+
 
 # Archivos de Python
 __pycache__/
